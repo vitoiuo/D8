@@ -2,6 +2,6 @@
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
-## Minha tentativa
+## Minha tentativa (Visualizar com largura em 1440px)
 
 https://victormagalhaesbarreto.github.io/D8/

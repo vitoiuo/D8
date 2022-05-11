@@ -21,14 +21,14 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: auto;
-  gap: 15rem;
+  gap: 11rem;
   margin: 3rem 0;
   font-size: 16px;
   font-weight: bold;
 }
 .menu-item {
   display: flex;
-  column-gap: 1rem;
+  column-gap: 2rem;
 }
 .menu-item a:hover {
   color: hsl(255, 11%, 22%);
@@ -211,7 +211,7 @@ footer {
   text-align: center;
   padding: 1rem;
   position: absolute;
-  top: -2rem;
+  top: -2.6rem;
 }
 .linha {
   background-color: aquamarine;
