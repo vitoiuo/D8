@@ -11,109 +11,118 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <nav>
       <ul class="menu-item">
-        <li class="site-name">Shortly</li>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Resources</li>
+        <li class="site-name color-dark">Shortly</li>
+        <li><a href="" class="color-gray">Features</a></li>
+        <li><a href="" class="color-gray">Pricing</a></li>
+        <li><a href="" class="color-gray">Resources</a></li>
       </ul>
       <section class="menu-item">
-        <button class="navigation-button">Login</button>
-        <button class="navigation-button">Sign Up</button>
+        <button class="navigation-button borda01 btn-type01">Login</button>
+        <button class="navigation-button borda01 btn-type02">Sign Up</button>
       </section>
     </nav>
     <header>
       <section class="header-item">
-        <h1>More than just shorter links</h1>
-        <h2>
+        <h1 class>More than just shorter links</h1>
+        <h2 class="color-gray">
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
         </h2>
-        <button class="start-button">Get Started</button>
+        <button class="start-button borda01 btn-type02">Get Started</button>
       </section>
-      <img src="images/illustration-working.svg" alt="" />
+      <img class="logo" src="images/illustration-working.svg" alt="" />
     </header>
     <form>
-      <input type="text" placeholder="Shorten a link here..." />
-      <button class="form-button">Shorten it!</button>
+      <input type="text" class="borda02" placeholder="Shorten a link here..." />
+      <button class="form-button borda02 btn-type02">Shorten it!</button>
     </form>
     <div class="container">
-      <h3 class="container-title">Advanced Statistics</h3>
-      <p>
-        Track how your links are performing across the web with our advanced
-        statistics dashboard.
-      </p>
+      <section class="container-text">
+        <h3 class="title">Advanced Statistics</h3>
+        <h4 class="color-gray">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </h4>
+      </section>
+      <div class="linha"></div>
       <section class="container-item">
-        <div class="text-box">
-          <h4>Brand Recognition</h4>
-          <p>
+        <div class="text-box top borda02">
+          <div class="container-icons">
+            <img src="images/icon-brand-recognition.svg" alt="">
+          </div>
+          <h4 class="section-title">Brand Recognition</h4>
+          <p class="color-gray">
             Boost your brand recognition with each click. Generic links don’t
             mean a thing. Branded links help instil confidence in your content.
           </p>
         </div>
-        <div class="text-box">
-          <h4>Detailed Records</h4>
-          <p>
+        <div class="text-box center borda02">
+          <div class="container-icons">
+            <img src="images/icon-detailed-records.svg" alt="">
+          </div>
+          <h4 class="section-title">Detailed Records</h4>
+          <p class="color-gray">
             Gain insights into who is clicking your links. Knowing when and
             where people engage with your content helps inform better decisions.
           </p>
         </div>
-        <div class="text-box">
-          <h4>Fully Customizable</h4>
-          <p>
+        <div class="text-box down borda02">
+          <div class="container-icons">
+            <img src="images/icon-fully-customizable.svg" alt="">
+          </div>
+          <h4 class="section-title">Fully Customizable</h4>
+          <p class="color-gray">
             Improve brand awareness and content discoverability through
             customizable links, supercharging audience engagement.
           </p>
         </div>
+        </div>
+       
       </section>
     </div>
     <div class="ad">
-      <h3>Boost your links today</h3>
-      <button>Get Started</button>
+      <h3 class="title color-white">Boost your links today</h3>
+      <button class="start-button borda01 btn-type02">Get Started</button>
     </div>
-    <footer>
-      <h4>Shortly</h4>
+    <footer class="color-white">
+      <h4 class="site-name">Shortly</h4>
       <section class="footer-item">
         <ul>
-          <li>Features</li>
-          <li>Link Shortening</li>
-          <li>Branded Links</li>
-          <li>Analytics</li>
+          <li class="list-title">Features</li>
+          <li class="list-element">Link Shortening</li>
+          <li class="list-element">Branded Links</li>
+          <li class="list-element">Analytics</li>
         </ul>
         <ul>
-          <li>Resources</li>
-          <li>Blog</li>
-          <li>Developers</li>
-          <li>Support</li>
+          <li class="list-title">Resources</li>
+          <li class="list-element">Blog</li>
+          <li class="list-element">Developers</li>
+          <li class="list-element">Support</li>
         </ul>
         <ul>
-          <li>Company</li>
-          <li>About</li>
-          <li>Our Team</li>
-          <li>Careers</li>
-          <li>Contact</li>
+          <li class="list-title">Company</li>
+          <li class="list-element">About</li>
+          <li class="list-element">Our Team</li>
+          <li class="list-element">Careers</li>
+          <li class="list-element">Contact</li>
         </ul>
-        <ul class="icons">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul class="footer-icons">
+          <li><img src="images/icon-facebook.svg" alt=""></i></li>
+          <li><img src="images/icon-twitter.svg" alt=""></li>
+          <li><img src="images/icon-pinterest.svg" alt=""></li>
+          <li><img src="images/icon-instagram.svg" alt=""></li>
         </ul>
       </section>
     </footer>
